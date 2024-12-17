@@ -82,14 +82,11 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 ### Steps to Run
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
-   cd <repository-folder>
+   [git clone <repository-url>](https://github.com/parishamaheshj18/fake_news.git)
+   cd fake_news
    ```
 2. Place the dataset files (`Fake.csv` and `True.csv`) in the appropriate input directory.
-3. Run the script:
-   ```bash
-   python fake_news_detection.py
-   ```
+3. open jupyter notebook fake_news_classifier.ipynb
 
 ### Output
 - The script will display the **accuracy score** and **classification report**.
